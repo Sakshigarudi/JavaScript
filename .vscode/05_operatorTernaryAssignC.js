@@ -25,4 +25,6 @@ var femalMarriageEligibility = function (gender, age, girlName) {
 var result = femalMarriageEligibility("Female", 16, "Jenifer");
 console.log(`${result}`);
 var result = femalMarriageEligibility("Female", 27, "Malinda Gates");
-console.log(`${result}`);
+console.log(`${result} `);
+
+
