@@ -1,3 +1,4 @@
+
 var interviewEligibility = function(gradScore, hscScore, sscScore, candidateName){
 var returnValue = " ";
 if (gradScore>=70 || hscScore>=80 || sscScore>=90) {

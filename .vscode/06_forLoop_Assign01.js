@@ -5,7 +5,20 @@ for (let index = 5; index <= 15; index++) {
   num += index + " ";
 }
 console.log(`----In Horizontal line ----`);
-console.log(num.trim());
+console.log(num);
+
+/*  using concat function---------------->
+
+console.log(`================ Number from 5 to 15 ================ `);
+var num = " ";
+for (let index = 5; index <= 15; index++) {
+  console.log(index);
+  //num += index + " ";
+  concatFun = num.concat(index);
+}
+console.log(`----In Horizontal line ----`);
+console.log(concatFun);
+*/
 
 console.log(`================ Number from 50 to 40 ================ `);
 var num = "";
