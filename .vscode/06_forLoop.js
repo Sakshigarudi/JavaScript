@@ -50,3 +50,5 @@ for (var index = 0; index <= 10; index = index + 2) {
 }
 
 console.log(result.trim());
+
+console.log(`================= Factorial of a Number =================`);

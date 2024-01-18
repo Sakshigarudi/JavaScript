@@ -65,7 +65,6 @@ console.log(`====== Selecting Multiple numbers ======`);
 let arrayNums = [11, 22, 33, 44, 55, 66, 77];
 let elements = arrayNums.slice(2);
 console.log(elements);
-
 const elementsMiddle = arrayNums.slice(1, 5);
 console.log(elementsMiddle);
 
@@ -87,7 +86,7 @@ console.log(arrayNo);
 
 console.log(`====== Removing or deleting an single middle element ======`);
 let arrayNu = [11, 22, 33, 44, 55, 66, 77];
-const oneRemoved = arrayNu.splice(3, 1);
+const oneRemoved = arrayNu.splice(3, 1); // 3 is index value and 1 is how many numbers you want to delete.
 console.log(`Deleted elements :-`);
 console.log(oneRemoved);
 console.log(`Original Array :-`);
@@ -95,11 +94,11 @@ console.log(arrayNu);
 
 console.log(`====== Inserting an elements in the middle without removed any element. ======`);
 let arrayN = [11, 22, 33, 44, 55, 66, 77];
-arrayN.splice(3, 0, 99);
+arrayN.splice(3, 0, 99);  // 3 is index value 0 is define dont remove any element and 99 is insrting number.
 console.log(arrayN);
 
 console.log(`====== Replacing an elements in the middle ======`);
 let arrayNN = [11, 22, 33, 44, 55, 66, 77];
 console.log(arrayNN);
-arrayNN.splice(2, 2, 100);
+arrayNN.splice(2, 2, 100); // 2 is index value 2 is define remove 2 element and 99 is insrting number at the place of removed element.
 console.log(arrayNN);
